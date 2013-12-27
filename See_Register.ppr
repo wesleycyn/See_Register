@@ -1,0 +1,304 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=E:\Project\Forth\See_Register
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+See_Register
+	+See_Register
+		+Target
+			+Arm
+				+STM32F407
+					-ID
+						Target\Arm\STM32F407\ID\ID.f
+					-DBG
+						Target\Arm\STM32F407\DBG\DBG.f
+					-FSMC
+						Target\Arm\STM32F407\FSMC\FSMC.f
+					-OTG
+						+OTG_HS
+							Target\Arm\STM32F407\OTG\OTG_HS\OTG_HS.f
+						+OTG_FS
+							Target\Arm\STM32F407\OTG\OTG_FS\OTG_FS.f
+					-Ethernet
+						Target\Arm\STM32F407\Ethernet\Ethernet.f
+					-SDIO
+						Target\Arm\STM32F407\SDIO\SDIO.f
+					-SPI
+						Target\Arm\STM32F407\SPI\SPI.f
+					-I2C
+						Target\Arm\STM32F407\I2C\I2C.f
+					-bxCAN
+						Target\Arm\STM32F407\bxCAN\bxCAN.f
+					-RTC
+						Target\Arm\STM32F407\RTC\RTC.f
+					-HASH
+						Target\Arm\STM32F407\HASH\HASH.f
+					-RNG
+						Target\Arm\STM32F407\RNG\RNG.f
+					-CRYP
+						Target\Arm\STM32F407\CRYP\CRYP.f
+					-IWDG
+						Target\Arm\STM32F407\IWDG\IWDG.f
+					-DCMI
+						Target\Arm\STM32F407\DCMI\DCMI.f
+					-DAC
+						Target\Arm\STM32F407\DAC\DAC.f
+					-ADC
+						Target\Arm\STM32F407\ADC\ADC.f
+					-EXTI
+						Target\Arm\STM32F407\EXTI\EXTI.f
+					-DMA
+						Target\Arm\STM32F407\DMA\DMA.f
+					-SYSCFG
+						Target\Arm\STM32F407\SYSCFG\SYSCFG.f
+					-RCC
+						Target\Arm\STM32F407\RCC\RCC.f
+					-PWR
+						Target\Arm\STM32F407\PWR\PWR.f
+					-GPIO
+					-USART
+						Target\Arm\STM32F407\USART\USART1.f
+						Target\Arm\STM32F407\USART\USART4.f
+						Target\Arm\STM32F407\USART\USART3.f
+						Target\Arm\STM32F407\USART\USART2.f
+					-TIM
+						Target\Arm\STM32F407\TIM\TIM.f
+						Target\Arm\STM32F407\TIM\TIM1.f
+						Target\Arm\STM32F407\TIM\TIM9.f
+						Target\Arm\STM32F407\TIM\TIM8.f
+						Target\Arm\STM32F407\TIM\TIM7.f
+						Target\Arm\STM32F407\TIM\TIM6.f
+						Target\Arm\STM32F407\TIM\TIM5.f
+						Target\Arm\STM32F407\TIM\TIM4.f
+						Target\Arm\STM32F407\TIM\TIM3.f
+						Target\Arm\STM32F407\TIM\TIM2.f
+						Target\Arm\STM32F407\TIM\TIM14.f
+						Target\Arm\STM32F407\TIM\TIM13.f
+						Target\Arm\STM32F407\TIM\TIM12.f
+						Target\Arm\STM32F407\TIM\TIM11.f
+						Target\Arm\STM32F407\TIM\TIM10.f
+					-CPU
+						Target\Arm\STM32F407\CPU\CPU.f
+		-CPU
+			CPU\CPU.f
+		-GPIO
+			GPIO\GPIO.f
+			GPIO\GPIO_A.f
+		+TIM
+			TIM\TIM.f
+			TIM\TIM1.f
+			TIM\TIM14.f
+			TIM\TIM13.f
+			TIM\TIM12.f
+			TIM\TIM11.f
+			TIM\TIM10.f
+			TIM\TIM9.f
+		+USART
+			USART\USART.f
+		PopupWindow.f
+		RESOURCES.F
+		See_Register.f
+		see_register_20131218am1058.JPG
+		Tree_Data.f
+		treeview.f
+[Open project files]
+0=Target\Arm\STM32F407\TIM\TIM1.f
+1=Target\Arm\STM32F407\TIM\TIM.f
+2=Target\Arm\STM32F407\TIM\TIM9.f
+3=Target\Arm\STM32F407\TIM\TIM8.f
+4=Target\Arm\STM32F407\TIM\TIM7.f
+5=Target\Arm\STM32F407\TIM\TIM6.f
+6=Target\Arm\STM32F407\TIM\TIM5.f
+7=Target\Arm\STM32F407\TIM\TIM4.f
+8=Target\Arm\STM32F407\TIM\TIM3.f
+9=Target\Arm\STM32F407\TIM\TIM2.f
+10=Target\Arm\STM32F407\TIM\TIM14.f
+11=Target\Arm\STM32F407\TIM\TIM13.f
+12=Target\Arm\STM32F407\TIM\TIM12.f
+13=Target\Arm\STM32F407\TIM\TIM11.f
+14=Target\Arm\STM32F407\TIM\TIM10.f
+15=Target\Arm\STM32F407\USART\USART1.f
+16=Target\Arm\STM32F407\USART\USART4.f
+17=Target\Arm\STM32F407\USART\USART2.f
+18=Target\Arm\STM32F407\USART\USART3.f
+19=Target\Arm\STM32F407\PWR\PWR.f
+20=Target\Arm\STM32F407\RCC\RCC.f
+21=Target\Arm\STM32F407\SYSCFG\SYSCFG.f
+22=Target\Arm\STM32F407\DMA\DMA.f
+23=Target\Arm\STM32F407\EXTI\EXTI.f
+24=Target\Arm\STM32F407\ADC\ADC.f
+25=Target\Arm\STM32F407\DAC\DAC.f
+26=Target\Arm\STM32F407\DCMI\DCMI.f
+27=Target\Arm\STM32F407\IWDG\IWDG.f
+28=Target\Arm\STM32F407\CRYP\CRYP.f
+29=Target\Arm\STM32F407\RNG\RNG.f
+30=Target\Arm\STM32F407\HASH\HASH.f
+31=Target\Arm\STM32F407\RTC\RTC.f
+32=Target\Arm\STM32F407\bxCAN\bxCAN.f
+33=Target\Arm\STM32F407\I2C\I2C.f
+34=Target\Arm\STM32F407\SPI\SPI.f
+35=Target\Arm\STM32F407\SDIO\SDIO.f
+36=Target\Arm\STM32F407\ID\ID.f
+37=Target\Arm\STM32F407\DBG\DBG.f
+38=Target\Arm\STM32F407\FSMC\FSMC.f
+39=Target\Arm\STM32F407\OTG\OTG_HS\OTG_HS.f
+40=Target\Arm\STM32F407\OTG\OTG_FS\OTG_FS.f
+41=CPU\CPU.f
+42=TIM\TIM.f
+43=TIM\TIM1.f
+44=TIM\TIM14.f
+45=TIM\TIM13.f
+46=TIM\TIM12.f
+[Selected Project Files]
+Main=
+Selected=TIM\TIM12.f
+[Target\Arm\STM32F407\TIM\TIM1.f]
+TopLine=1
+Caret=1,1
+[Target\Arm\STM32F407\TIM\TIM.f]
+TopLine=1
+Caret=1,1
+[Target\Arm\STM32F407\TIM\TIM9.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM8.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM7.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM6.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM5.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM4.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM3.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM2.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\TIM\TIM14.f]
+TopLine=1
+Caret=22,20
+[Target\Arm\STM32F407\TIM\TIM13.f]
+TopLine=1
+Caret=22,20
+[Target\Arm\STM32F407\TIM\TIM12.f]
+TopLine=1
+Caret=22,20
+[Target\Arm\STM32F407\TIM\TIM11.f]
+TopLine=1
+Caret=22,20
+[Target\Arm\STM32F407\TIM\TIM10.f]
+TopLine=1
+Caret=22,20
+[Target\Arm\STM32F407\USART\USART1.f]
+TopLine=1
+Caret=17,7
+[Target\Arm\STM32F407\USART\USART4.f]
+TopLine=1
+Caret=24,7
+[Target\Arm\STM32F407\USART\USART2.f]
+TopLine=1
+Caret=1,1
+[Target\Arm\STM32F407\USART\USART3.f]
+TopLine=1
+Caret=24,7
+[Target\Arm\STM32F407\PWR\PWR.f]
+TopLine=1
+Caret=12,2
+[Target\Arm\STM32F407\RCC\RCC.f]
+TopLine=1
+Caret=25,14
+[Target\Arm\STM32F407\SYSCFG\SYSCFG.f]
+TopLine=1
+Caret=24,8
+[Target\Arm\STM32F407\DMA\DMA.f]
+TopLine=1
+Caret=18,13
+[Target\Arm\STM32F407\EXTI\EXTI.f]
+TopLine=1
+Caret=18,7
+[Target\Arm\STM32F407\ADC\ADC.f]
+TopLine=1
+Caret=1,23
+[Target\Arm\STM32F407\DAC\DAC.f]
+TopLine=1
+Caret=20,14
+[Target\Arm\STM32F407\DCMI\DCMI.f]
+TopLine=1
+Caret=19,11
+[Target\Arm\STM32F407\IWDG\IWDG.f]
+TopLine=1
+Caret=17,4
+[Target\Arm\STM32F407\CRYP\CRYP.f]
+TopLine=1
+Caret=19,17
+[Target\Arm\STM32F407\RNG\RNG.f]
+TopLine=1
+Caret=14,3
+[Target\Arm\STM32F407\HASH\HASH.f]
+TopLine=1
+Caret=11,23
+[Target\Arm\STM32F407\RTC\RTC.f]
+TopLine=1
+Caret=20,20
+[Target\Arm\STM32F407\bxCAN\bxCAN.f]
+TopLine=3
+Caret=21,40
+[Target\Arm\STM32F407\I2C\I2C.f]
+TopLine=1
+Caret=1,11
+[Target\Arm\STM32F407\SPI\SPI.f]
+TopLine=1
+Caret=19,9
+[Target\Arm\STM32F407\SDIO\SDIO.f]
+TopLine=1
+Caret=20,17
+[Target\Arm\STM32F407\ID\ID.f]
+TopLine=1
+Caret=1,1
+[Target\Arm\STM32F407\DBG\DBG.f]
+TopLine=1
+Caret=22,4
+[Target\Arm\STM32F407\FSMC\FSMC.f]
+TopLine=1
+Caret=20,27
+[Target\Arm\STM32F407\OTG\OTG_HS\OTG_HS.f]
+TopLine=1
+Caret=22,5
+[Target\Arm\STM32F407\OTG\OTG_FS\OTG_FS.f]
+TopLine=1
+Caret=1,1
+[CPU\CPU.f]
+TopLine=1
+Caret=1,1
+[TIM\TIM.f]
+TopLine=1
+Caret=1,1
+[TIM\TIM1.f]
+TopLine=1
+Caret=1,1
+[TIM\TIM14.f]
+TopLine=25
+Caret=1,1
+[TIM\TIM13.f]
+TopLine=1
+Caret=1,1
+[TIM\TIM12.f]
+TopLine=1
+Caret=1,1
