@@ -9,8 +9,7 @@ false value turnkey?
 defer OnPosition  ( window -- ) ' drop is OnPosition \ called when window panes are repositioned
 defer OnInit      ( window -- ) ' drop is OnInit \ called during window On_init method
 
-variable  TIM14_CR1
-0x55555555  TIM14_CR1 !
+
 
 fload Target/Target.f
 
@@ -169,7 +168,7 @@ fload Tree_Data.f
 
 ;Object
 
-variable LeftWidth  200 LeftWidth !
+variable LeftWidth  300 LeftWidth !
 2 value thickness
 
 

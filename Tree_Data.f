@@ -45,7 +45,7 @@ fload Target/Target_Tree.f
     z" R4"   hPrev     hSon      0  AddItem
     z" R5"  hPrev     hSon      0  AddItem 
    z" PWR"        hPrev     hRoot     1  AddItem     hPrev to hSon
-   z" RCC"        hPrev     hRoot     1  AddItem     hPrev to hSon
+   RCC
    GPIO
    z" SYSCFG"     hPrev     hRoot     1  AddItem     hPrev to hSon
    z" DMA"        hPrev     hRoot     1  AddItem     hPrev to hSon
