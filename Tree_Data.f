@@ -66,7 +66,7 @@ fload Target/Target_Tree.f
   USART 
    z" SPI"        hPrev     hRoot     1  AddItem     hPrev to hSon
    z" SDIO"        hPrev     hRoot     1  AddItem     hPrev to hSon   
-   z" ETH"        hPrev     hRoot     1  AddItem     hPrev to hSon
+  ETH
    z" OTG_FS"        hPrev     hRoot     1  AddItem     hPrev to hSon  
    z" OTG_HS"        hPrev     hRoot     1  AddItem     hPrev to hSon
    z" FSMC"        hPrev     hRoot     1  AddItem     hPrev to hSon   
