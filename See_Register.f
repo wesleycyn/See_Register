@@ -12,6 +12,7 @@ defer OnInit      ( window -- ) ' drop is OnInit \ called during window On_init 
 variable  TIM14_CR1
 0x55555555  TIM14_CR1 !
 
+fload Target/Target.f
 
 
 :Class NewTVC <super TreeViewControl
@@ -25,8 +26,8 @@ variable  TIM14_CR1
                 TVS_DISABLEDRAGDROP or
                 TVS_SHOWSELALWAYS   or
                 TVS_LINESATROOT     or
-                TVS_CHECKBOXES     or 
-                TVS_EDITLABELS     or              
+                TVS_CHECKBOXES     or
+                TVS_EDITLABELS     or
                 ;M
 
 int hRoot
@@ -296,4 +297,3 @@ turnkey? [if]
   main_Reg
   Start: SplitterWindow
   ;
-  
