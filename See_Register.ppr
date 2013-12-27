@@ -241,9 +241,9 @@ See_Register
 				+STM32F407
 					+ADC
 						Target\Arm\STM32F407\ADC\ADC.f
-					-bxCAN
+					+bxCAN
 						Target\Arm\STM32F407\bxCAN\bxCAN.f
-					-CPU
+					+CPU
 						Target\Arm\STM32F407\CPU\CPU.f
 					-CRYP
 						Target\Arm\STM32F407\CRYP\CRYP.f
@@ -261,9 +261,27 @@ See_Register
 						Target\Arm\STM32F407\EXTI\EXTI.f
 					-FSMC
 						Target\Arm\STM32F407\FSMC\FSMC.f
-					-GPIO
+					+GPIO
 						Target\Arm\STM32F407\GPIO\GPIO.f
 						Target\Arm\STM32F407\GPIO\GPIO_A.f
+						Target\Arm\STM32F407\GPIO\GPIO_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_I_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_I.f
+						Target\Arm\STM32F407\GPIO\GPIO_H_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_H.f
+						Target\Arm\STM32F407\GPIO\GPIO_G_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_G.f
+						Target\Arm\STM32F407\GPIO\GPIO_F_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_F.f
+						Target\Arm\STM32F407\GPIO\GPIO_E_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_E.f
+						Target\Arm\STM32F407\GPIO\GPIO_D_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_D.f
+						Target\Arm\STM32F407\GPIO\GPIO_C_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_C.f
+						Target\Arm\STM32F407\GPIO\GPIO_B_Tree.f
+						Target\Arm\STM32F407\GPIO\GPIO_B.f
+						Target\Arm\STM32F407\GPIO\GPIO_A_Tree.f
 					-HASH
 						Target\Arm\STM32F407\HASH\HASH.f
 					-I2C
@@ -279,7 +297,7 @@ See_Register
 							Target\Arm\STM32F407\OTG\OTG_HS\OTG_HS.f
 					-PWR
 						Target\Arm\STM32F407\PWR\PWR.f
-					-RCC
+					+RCC
 						Target\Arm\STM32F407\RCC\RCC.f
 					-RNG
 						Target\Arm\STM32F407\RNG\RNG.f
@@ -291,7 +309,7 @@ See_Register
 						Target\Arm\STM32F407\SPI\SPI.f
 					-SYSCFG
 						Target\Arm\STM32F407\SYSCFG\SYSCFG.f
-					+TIM
+					-TIM
 						Target\Arm\STM32F407\TIM\TIM.f
 						Target\Arm\STM32F407\TIM\TIM1.f
 						Target\Arm\STM32F407\TIM\TIM1_Tree.f
@@ -366,18 +384,42 @@ See_Register
 10=Target\Arm\STM32F407\USART\USART3_Tree.f
 11=Target\Arm\STM32F407\USART\USART4_Tree.f
 12=Target\Arm\STM32F407\USART\USART2_Tree.f
+13=Target\Arm\STM32F407\GPIO\GPIO.f
+14=Target\Arm\STM32F407\GPIO\GPIO_A.f
+15=Target\Arm\STM32F407\RCC\RCC.f
+16=Target\Arm\STM32F407\ADC\ADC.f
+17=Target\Arm\STM32F407\CPU\CPU.f
+18=Target\Arm\STM32F407\GPIO\GPIO_Tree.f
+19=Target\Target_Tree.f
+20=Target\Arm\STM32F407\GPIO\GPIO_I.f
+21=Target\Arm\STM32F407\GPIO\GPIO_H.f
+22=Target\Arm\STM32F407\GPIO\GPIO_G.f
+23=Target\Arm\STM32F407\GPIO\GPIO_F.f
+24=Target\Arm\STM32F407\GPIO\GPIO_E.f
+25=Target\Arm\STM32F407\GPIO\GPIO_D.f
+26=Target\Arm\STM32F407\GPIO\GPIO_C.f
+27=Target\Arm\STM32F407\GPIO\GPIO_B.f
+28=Target\Arm\STM32F407\GPIO\GPIO_A_Tree.f
+29=Target\Arm\STM32F407\GPIO\GPIO_B_Tree.f
+30=Target\Arm\STM32F407\GPIO\GPIO_C_Tree.f
+31=Target\Arm\STM32F407\GPIO\GPIO_D_Tree.f
+32=Target\Arm\STM32F407\GPIO\GPIO_E_Tree.f
+33=Target\Arm\STM32F407\GPIO\GPIO_F_Tree.f
+34=Target\Arm\STM32F407\GPIO\GPIO_G_Tree.f
+35=Target\Arm\STM32F407\GPIO\GPIO_H_Tree.f
+36=Target\Arm\STM32F407\GPIO\GPIO_I_Tree.f
 [Selected Project Files]
 Main=
-Selected=Target\Arm\STM32F407\USART\USART2_Tree.f
+Selected=Target\Arm\STM32F407\GPIO\GPIO_I_Tree.f
 [Tree_Data.f]
-TopLine=25
-Caret=8,66
+TopLine=33
+Caret=8,49
 [Target\Target.f]
 TopLine=1
-Caret=1,1
+Caret=37,5
 [Target\Arm\STM32F407\USART\USART.f]
 TopLine=1
-Caret=40,4
+Caret=1,1
 [Target\Arm\STM32F407\USART\USART_Tree.f]
 TopLine=1
 Caret=1,1
@@ -386,7 +428,7 @@ TopLine=1
 Caret=1,1
 [Target\Arm\STM32F407\USART\USART1.f]
 TopLine=1
-Caret=15,1
+Caret=1,1
 [Target\Arm\STM32F407\USART\USART4.f]
 TopLine=1
 Caret=10,3
@@ -408,3 +450,75 @@ Caret=19,58
 [Target\Arm\STM32F407\USART\USART2_Tree.f]
 TopLine=1
 Caret=19,58
+[Target\Arm\STM32F407\GPIO\GPIO.f]
+TopLine=1
+Caret=39,1
+[Target\Arm\STM32F407\GPIO\GPIO_A.f]
+TopLine=1
+Caret=1,3
+[Target\Arm\STM32F407\RCC\RCC.f]
+TopLine=1
+Caret=25,7
+[Target\Arm\STM32F407\ADC\ADC.f]
+TopLine=1
+Caret=22,1
+[Target\Arm\STM32F407\CPU\CPU.f]
+TopLine=1
+Caret=1,1
+[Target\Arm\STM32F407\GPIO\GPIO_Tree.f]
+TopLine=1
+Caret=1,3
+[Target\Target_Tree.f]
+TopLine=1
+Caret=37,2
+[Target\Arm\STM32F407\GPIO\GPIO_I.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_H.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_G.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_F.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_E.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_D.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_C.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_B.f]
+TopLine=1
+Caret=27,12
+[Target\Arm\STM32F407\GPIO\GPIO_A_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_B_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_C_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_D_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_E_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_F_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_G_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_H_Tree.f]
+TopLine=1
+Caret=40,16
+[Target\Arm\STM32F407\GPIO\GPIO_I_Tree.f]
+TopLine=1
+Caret=35,10
