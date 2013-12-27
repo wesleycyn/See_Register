@@ -63,7 +63,7 @@ fload Target/Target_Tree.f
    z" CAN"        hPrev     hRoot     1  AddItem     hPrev to hSon   
    z" I2C"        hPrev     hRoot     1  AddItem     hPrev to hSon   
    
-   z" USART"        hPrev     hRoot     1  AddItem     hPrev to hSon  
+  USART 
    z" SPI"        hPrev     hRoot     1  AddItem     hPrev to hSon
    z" SDIO"        hPrev     hRoot     1  AddItem     hPrev to hSon   
    z" ETH"        hPrev     hRoot     1  AddItem     hPrev to hSon
